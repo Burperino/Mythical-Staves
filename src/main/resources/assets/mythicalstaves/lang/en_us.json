@@ -1,0 +1,9 @@
+{
+  "item.mythicalstaves.staff_of_ice": "Staff of Ice",
+  "item.mythicalstaves.staff_of_fire": "Staff of Fire",
+  "item.mythicalstaves.staff_of_zeus": "Staff of Zeus",
+  "item.mythicalstaves.staff_of_the_depths": "Staff of the Depths",
+  "item.mythicalstaves.staff_of_gambling": "Staff of Gambling",
+  "effect.mythicalstaves.frozen": "Frozen",
+  "itemGroup.mythical_staves": "Mythical Staves"
+}

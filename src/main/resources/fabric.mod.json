@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mythicalstaves",
+  "version": "${version}",
+  "name": "MythicalStaves",
+  "description": "The weather outside is rizzy, but the fire outside is so skibidi",
+  "authors": [
+    "TryhardDoggo"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mythicalstaves/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["me.td.mythicalstaves.client.ClientInitializer"],
+    "server": ["me.td.mythicalstaves.server.ServerInitializer"],
+    "main": [
+      "me.td.mythicalstaves.MythicalStaves"
+    ]
+  },
+  "mixins": [
+    "mythicalstaves.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
